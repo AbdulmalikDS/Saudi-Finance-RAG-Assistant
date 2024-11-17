@@ -136,7 +136,7 @@ for query in arabic_test_queries:
 """
 
 
-ef extract_metrics(text):
+def extract_metrics(text):
     """Extract financial metrics from text"""
     metrics = {}
     
